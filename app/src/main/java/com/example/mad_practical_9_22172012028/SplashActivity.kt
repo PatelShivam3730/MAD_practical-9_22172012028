@@ -13,7 +13,7 @@ class SplashActivity : AppCompatActivity() ,AnimationListener{
     lateinit var tweenanimation:Animation
     var logoimg:ImageView= findViewById((R.id.logo)
 
-    override fun onCreate(savedInstanceState: Bundle?) {
+    override fun(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
 
