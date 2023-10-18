@@ -11,7 +11,7 @@ import android.widget.ImageView
 class SplashActivity : AppCompatActivity() ,AnimationListener{
     lateinit var logoanimation: AnimationDrawable
     lateinit var tweenanimation:Animation
-    var logoimg:ImageView= findViewById((R.id.logoanimation)
+    var logoimg:ImageView= findViewById((R.id.logo)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
